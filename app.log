@@ -1,0 +1,86 @@
+2024-12-31 15:59:51,783 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.103:5000
+2024-12-31 15:59:51,784 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-31 16:00:00,550 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:00:00] "GET / HTTP/1.1" 200 -
+2024-12-31 16:00:07,011 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:00:07] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2024-12-31 16:00:08,597 - __main__ - INFO - get_faces_and_encodings took 1.58 seconds
+2024-12-31 16:00:08,637 - __main__ - INFO - make_rect_around_faces took 0.04 seconds
+2024-12-31 16:00:08,670 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:00:08] "GET /showface/0007ad5c6245a41d.jpg HTTP/1.1" 200 -
+2024-12-31 16:00:08,790 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:00:08] "GET /static/processed/processed-20241231_160008-0007ad5c6245a41d.jpg HTTP/1.1" 200 -
+2024-12-31 16:00:50,674 - __main__ - INFO - get_faces_and_encodings took 1.90 seconds
+2024-12-31 16:00:50,675 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:00:50] "GET /api/faces/0007ad5c6245a41d.jpg HTTP/1.1" 200 -
+2024-12-31 16:01:10,416 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:01:10] "GET / HTTP/1.1" 200 -
+2024-12-31 16:08:02,112 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.103:5000
+2024-12-31 16:08:02,112 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-31 16:08:16,283 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:08:16] "GET / HTTP/1.1" 200 -
+2024-12-31 16:12:10,220 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:12:10] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2024-12-31 16:12:11,915 - __main__ - INFO - get_faces_and_encodings took 1.68 seconds
+2024-12-31 16:12:11,950 - __main__ - INFO - make_rect_around_faces took 0.03 seconds
+2024-12-31 16:12:11,951 - __main__ - ERROR - Error processing image: 'dimensions'
+2024-12-31 16:12:11,953 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:12:11] "[32mGET /showface/0a0f14e7c1fa92f3.jpg HTTP/1.1[0m" 302 -
+2024-12-31 16:12:11,979 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:12:11] "GET / HTTP/1.1" 200 -
+2024-12-31 16:12:27,157 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:12:27] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2024-12-31 16:12:39,032 - __main__ - INFO - get_faces_and_encodings took 11.86 seconds
+2024-12-31 16:12:39,056 - __main__ - INFO - make_rect_around_faces took 0.02 seconds
+2024-12-31 16:12:39,056 - __main__ - ERROR - Error processing image: 'dimensions'
+2024-12-31 16:12:39,057 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:12:39] "[32mGET /showface/0a32de8598733c17.jpg HTTP/1.1[0m" 302 -
+2024-12-31 16:12:39,062 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:12:39] "GET / HTTP/1.1" 200 -
+2024-12-31 16:19:26,981 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:19:26] "GET / HTTP/1.1" 200 -
+2024-12-31 16:19:35,074 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:19:35] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2024-12-31 16:19:46,452 - __main__ - INFO - get_faces_and_encodings took 11.36 seconds
+2024-12-31 16:19:46,471 - __main__ - INFO - make_rect_around_faces took 0.02 seconds
+2024-12-31 16:19:46,472 - __main__ - ERROR - Error processing image: 'dimensions'
+2024-12-31 16:19:46,472 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:19:46] "[32mGET /showface/0a32de8598733c17.jpg HTTP/1.1[0m" 302 -
+2024-12-31 16:19:46,478 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:19:46] "GET / HTTP/1.1" 200 -
+2024-12-31 16:19:55,058 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:19:55] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2024-12-31 16:19:56,745 - __main__ - INFO - get_faces_and_encodings took 1.67 seconds
+2024-12-31 16:19:56,764 - __main__ - INFO - make_rect_around_faces took 0.02 seconds
+2024-12-31 16:19:56,765 - __main__ - ERROR - Error processing image: 'dimensions'
+2024-12-31 16:19:56,766 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:19:56] "[32mGET /showface/0007ad5c6245a41d.jpg HTTP/1.1[0m" 302 -
+2024-12-31 16:19:56,774 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:19:56] "GET / HTTP/1.1" 200 -
+2024-12-31 16:23:26,884 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.103:5000
+2024-12-31 16:23:26,885 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-31 16:23:36,161 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:23:36] "GET / HTTP/1.1" 200 -
+2024-12-31 16:23:48,203 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:23:48] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2024-12-31 16:23:49,385 - __main__ - INFO - get_faces_and_encodings took 1.17 seconds
+2024-12-31 16:23:49,406 - __main__ - INFO - make_rect_around_faces took 0.02 seconds
+2024-12-31 16:23:49,406 - __main__ - ERROR - Error processing image: 'dimensions'
+2024-12-31 16:23:49,408 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:23:49] "[32mGET /showface/0a9ae8f9bf2f8b5c.jpg HTTP/1.1[0m" 302 -
+2024-12-31 16:23:49,414 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:23:49] "GET / HTTP/1.1" 200 -
+2024-12-31 16:26:18,496 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.103:5000
+2024-12-31 16:26:18,497 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-31 16:26:21,344 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:26:21] "GET / HTTP/1.1" 200 -
+2024-12-31 16:26:39,836 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:26:39] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2024-12-31 16:26:40,994 - __main__ - INFO - get_faces_and_encodings took 1.15 seconds
+2024-12-31 16:26:41,011 - __main__ - INFO - make_rect_around_faces took 0.02 seconds
+2024-12-31 16:26:41,012 - __main__ - ERROR - Error processing image: 'dimensions'
+2024-12-31 16:26:41,013 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:26:41] "[32mGET /showface/0a0d7a87378422e3.jpg HTTP/1.1[0m" 302 -
+2024-12-31 16:26:41,026 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:26:41] "GET / HTTP/1.1" 200 -
+2024-12-31 16:34:31,548 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.103:5000
+2024-12-31 16:34:31,548 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-31 16:34:37,868 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:34:37] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2024-12-31 16:34:39,344 - __main__ - INFO - get_faces_and_encodings took 1.46 seconds
+2024-12-31 16:34:39,358 - __main__ - INFO - make_rect_around_faces took 0.01 seconds
+2024-12-31 16:34:39,390 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:34:39] "GET /showface/0a0d7a87378422e3.jpg HTTP/1.1" 200 -
+2024-12-31 16:34:39,528 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:34:39] "GET /static/processed/processed-20241231_163439-0a0d7a87378422e3.jpg HTTP/1.1" 200 -
+2024-12-31 16:34:58,566 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:34:58] "GET / HTTP/1.1" 200 -
+2024-12-31 16:36:52,867 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:36:52] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2024-12-31 16:36:54,913 - __main__ - INFO - get_faces_and_encodings took 2.04 seconds
+2024-12-31 16:36:54,928 - __main__ - INFO - make_rect_around_faces took 0.02 seconds
+2024-12-31 16:36:54,936 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:36:54] "GET /showface/00a62838d8bdaf95.jpg HTTP/1.1" 200 -
+2024-12-31 16:36:55,006 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:36:55] "GET /static/processed/processed-20241231_163654-00a62838d8bdaf95.jpg HTTP/1.1" 200 -
+2024-12-31 16:37:18,225 - werkzeug - INFO - 127.0.0.1 - - [31/Dec/2024 16:37:18] "GET / HTTP/1.1" 200 -
